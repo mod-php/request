@@ -20,22 +20,22 @@ $response = Request::get('http://site.exmaple/post', array(
 
 ### Options
 
-`url` Url to request \ 
-`headers` Headers array \ 
-`dataType` json or null \ 
-`data` Data array or raw data \ 
-`timeout` Tiemout to request url, default is 10s \ 
-`curlOpt` curl options \ 
-`responseType` json or null \ 
-`method` GET, POST, PUT, DELETE, OPTIONS \ 
+- `url` Url to request
+- `headers` Headers array
+- `dataType` json or null
+- `data` Data array or raw data
+- `timeout` Tiemout to request url, default is 10s
+- `curlOpt` curl options
+- `responseType` json or null
+- `method` GET, POST, PUT, DELETE, OPTIONS
 
 ### Response
 
-`statusCode` 200, or other \ 
-`headers` Headers in response \ 
-`body` Raw body or json data as array \ 
-`curlInfo` curl response \ 
-`error` error message when request url failed \ 
+- `statusCode` 200, or other
+- `headers` Headers in response
+- `body` Raw body or json data as array
+- `curlInfo` curl response
+- `error` error message when request url failed
 
 License
 =============
